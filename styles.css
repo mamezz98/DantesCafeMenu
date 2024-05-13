@@ -22,13 +22,11 @@ body {
 .heading {
     display: flex;
     flex-direction: column;
-    /* width: 50%; */
 }
 
 h1 {
     font-size: 5rem;
     margin: 0;
-    /* text-align: center; */
 }
 
 h2 {
@@ -41,7 +39,15 @@ h1, h2 {
     font-family: Georgia, sans-serif;
 }
 
-divider {
-    border-bottom: 5px thick #ff7f50;
-    margin: 2px 0;
+.divider {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.thick {
+    border-top: 5px solid #ff7f50;
+}
+
+.thin {
+    border-top: 2px solid #ff7f50;
 }
