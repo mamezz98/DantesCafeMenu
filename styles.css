@@ -8,10 +8,8 @@
         - #5d8aa8 air force blue
 */
 
-.heading, h3, .name {
-    color: #5E6C3B;
-}
 
+/* Page Structure */
 body {
     background-color: #fff8e7;
     display: flex;
@@ -19,26 +17,31 @@ body {
     align-items: center;
 }
 
+
+/* Heading Text */
 .heading {
     display: flex;
     flex-direction: column;
+    color: #5E6C3B;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 7rem;
     margin: 0;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 0;
     text-align: right;
 }
 
 h1, h2 {
-    font-family: Georgia, sans-serif;
+    font-family: 'Arial Narrow', Georgia, sans-serif;
 }
 
+
+/* Dividers */
 .divider {
     width: 100%;
     margin: 20px 0;
@@ -50,4 +53,21 @@ h1, h2 {
 
 .thin {
     border-top: 2px solid #ff7f50;
+}
+
+
+/* Menu Items */
+.fresh, .toasted, .panino {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.description {
+    font-style: italic;
 }
